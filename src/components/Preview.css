@@ -1,0 +1,52 @@
+.preview {
+  position: relative;
+}
+
+.preview__close {
+  position: absolute;
+  top: 0;
+  margin: 5px;
+  font-size: 26px !important;
+  font-weight: 800 !important;
+  color: white;
+  cursor: pointer;
+}
+
+.preview__toolBarRight {
+  color: white;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.preview__toolBarRight > .MuiSvgIcon-root {
+  font-size: 22px !important;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.preview__footer {
+  position: absolute;
+  bottom: 0;
+  right: -25px;
+  transform: translate(-50%, -50%);
+  background-color: yellow;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 30px;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.preview__footer > h2 {
+  font-size: 12px;
+  margin-right: 3px;
+}
+
+.preview__sendIcon {
+  font-size: 14px !important;
+}
